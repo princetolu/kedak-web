@@ -21,7 +21,6 @@ function App() {
 
   return (
     <>
-    <Toggle />
       <div className='header'>
         <img src={logo} alt="logo" className='logo' />
 
@@ -81,8 +80,6 @@ function App() {
       <div>
         <Pricng />
       </div>
-
-
 
 
       <div className='text-center my-5'>

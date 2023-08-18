@@ -10,10 +10,10 @@ import img3 from '../../assets/images/iPhone2.png'
 function Register() {
   return (
     <div>
-      <div class="row gx-5 register">
+      <div className="row mb-3 register g-5">
 
-        <div class="col-5 left">
-          <p><i class="bi bi-lightbulb"></i> 2 / 4</p>
+        <div className="col-md-6 themed-grid-col left">
+          <p><i className="bi bi-lightbulb"></i> 2 / 4</p>
 
           <h3>Download app</h3>
 
@@ -24,29 +24,41 @@ function Register() {
           <img src={img1} alt="" />
         </div>
 
-        <div class="col-7 right">
+        <div className="col-md-6 themed-grid-col right">
 
-          <div class="mb-3 top">
-            <p><i class="bi bi-lightbulb"></i> 3 / 4</p>
+          <div className="top">
+            <div className="row">
+              <div className="col-md-6">
+                <p><i className="bi bi-lightbulb"></i> 3 / 4</p>
 
-            <h3>Register after installing</h3>
+                <h3>Register after installing</h3>
 
-            <p>Fill in every textfield so that when your card is scanned, the reciepient gets all your contact info.</p>
+                <p>Fill in every textfield so that when your card is scanned, the reciepient gets all your contact info.</p>
+              </div>
 
-            <img src={img2} alt="" />
+              <div className="col-md-6">
+                <img src={img2} alt="" />
+              </div>
+            </div>
           </div>
 
-          <div class="bottom">
-            <p><i class="bi bi-lightbulb"></i> 3 / 4</p>
+          <div className="bottom">
+            <div className="row">
+              <div className="col-md-6">
+                <p><i className="bi bi-lightbulb"></i> 3 / 4</p>
 
-            <h3>Register after installing</h3>
+                <h3>Register after installing</h3>
 
-            <p>Fill in every textfield so that when your card is scanned, the reciepient gets all your contact info.</p>
+                <p>Fill in every textfield so that when your card is scanned, the reciepient gets all your contact info.</p>
+              </div>
 
-            <img src={img3} alt="" />
+              <div className="col-md-6">
+                <img src={img3} alt="" />
+              </div>
+            </div>
           </div>
-
         </div>
+
       </div>
     </div>
   )
@@ -54,23 +66,19 @@ function Register() {
 
 export default Register;
 
+<div class="row gx-5 register">
 
+<div class="col-7 right">
 
+  <div class="mb-3 top">
+   
+  </div>
 
+  <div class="bottom">
+   
 
+ 
+  </div>
 
-
-<div class="row ">
-
-<div class="col-md-5 ">
-
-
-  
-
-  
-</div>
-
-<div class="col-md-7 right">
-  
 </div>
 </div>

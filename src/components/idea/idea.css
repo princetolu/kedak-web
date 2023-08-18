@@ -6,8 +6,21 @@
 }
 
 .idea .text {
-    padding: 50px 0 50px 84px;
+    padding: 5%;
+    margin: 10px;
     
+}
+
+.idea .ani-left:hover {
+    animation: backInLeft;
+  animation-duration: 2s;
+
+}
+
+.idea .ani-right:hover {
+    animation: backInRight;
+  animation-duration: 2s;
+
 }
 
 .idea h1 {
@@ -21,7 +34,7 @@
 }
 
 .idea ul {
-    width: 380px;
+    width: 80%;
 }
 
 .idea ul li {

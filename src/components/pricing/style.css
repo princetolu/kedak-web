@@ -16,7 +16,7 @@ section{
     background: var(--white-smoke);
 }
 
-.content{
+.conten{
     display: flex;
     justify-content: space-between;
     width: 1200px;
@@ -32,9 +32,15 @@ section{
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: all .2s ease-in-out; 
     
     background: var(--white);
 
+}
+
+.box:hover,
+.silver-box:hover{
+    transform: scale(1.1); 
 }
 
 .silver-box{
@@ -143,10 +149,9 @@ button:hover{
 }
 
 
-
 /* Responsiveness:Start */
 @media screen and (max-width:970px) {
-    .content{
+    .conten{
         display: flex;
         align-items: center;
         flex-direction: column;

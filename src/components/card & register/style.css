@@ -4,6 +4,15 @@
     border: none;
 }
 
+.get:hover{
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%);
+    border-image-slice: 5;
+
+    animation: bounceIn; 
+  animation-duration: 5s;
+}
+
 .get .text {
     padding: 50px 0 20px 84px;
 }
@@ -22,7 +31,7 @@
 }
 
 .register .left {
-    padding: 8px 0 0 84px;
+    padding: 20px 0 0 50px;
     background-color: #F4F4F4;
     border-radius: 16px;
     border: none;
@@ -33,40 +42,77 @@
 }
 
 .register .left img {
-    width: 500px;
+    width: 100%;
     float: right;
     margin-top: 35px;
 }
 
 
-.register .right .top {
-    padding: 80px 0 80px 84px;
-    background-color: #F4F4F4;
-    border-radius: 16px;
-    border: none;
-}
-
-.register .right p {
-    width: 280px;
-}
-
-.register .right .top img {
-    float: right;
-    margin-top: -180px;
-}
-
+.register .right .top,
 .register .right .bottom {
-    padding: 80px 0 80px 84px;
+    padding: 20px 0 0 20px;
     background-color: #F4F4F4;
     border-radius: 16px;
-    border: none;
+    display: block;
+    margin-bottom: 50px;
 }
 
-.register .right p {
-    width: 280px;
+.register .right h3,
+.register .bottom h3 {
+    padding: 20px 0 0 20px;
 }
 
-.register .right .bottom img {
-    float: right;
-    margin-top: -250px;
+.register .right p{
+    padding: 20px 0 20px 20px;
+}
+
+.register .left:hover {
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%);
+    border-image-slice: 1;
+}
+
+.register .right .top:hover{
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%);
+    border-image-slice: 1;
+
+    animation: shake 0.80s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+
+.register .right .bottom:hover {
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%);
+    border-image-slice: 1;
+
+    animation: shake 0.80s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-5px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(5px, 0, 0);
+    }
 }

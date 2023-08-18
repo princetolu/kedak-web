@@ -1,5 +1,6 @@
 import React from "react"
 import "../idea/idea.css"
+import 'animate.css';
 
 import Download from '../button/Download'
 
@@ -10,39 +11,44 @@ import  img4 from '../../assets/images/Rectangle4.png'
 
 function Idea() {
   return (
-    <div className="idea">
-      <div className="text">
-        <p><i class="bi bi-lightbulb"></i> The Idea</p>
+    <div>
+      <div className="row mb-3 idea mt-5">
 
-        <h1>Lifetime connections on your phone</h1>
+        <div className="col-lg-6 themed-grid-col p-5 ani-left">
+          <div classNameName="text">
+            <p><i className="bi bi-lightbulb"></i> The Idea</p>
 
-        <Download />
+            <h1>Lifetime connections on your phone</h1>
 
-        <p className="note"><i class="bi bi-pencil"></i> Note</p>
+            <div className="my-5"><Download /></div>
 
-        <ul>
-            <li>Instantly share information with someone you're meeting for the first time.</li>
-            <li>Easily scan cards without stress. Get any card of your own choice.</li>
-            <li>Contact anyone you have come across through any of their social media handles on their profile.</li>
-        </ul>
+            <p classNameName="note"><i className="bi bi-pencil"></i> Note</p>
 
-      </div>
+            <ul>
+              <li>Instantly share information with someone you're meeting for the first time.</li>
+              <li>Easily scan cards without stress. Get any card of your own choice.</li>
+              <li>Contact anyone you have come across through any of their social media handles on their profile.</li>
+            </ul>
 
-      <div className="picture">
-        <img src={img1} alt="" />
-        <img src={img2} alt="" />
-        <img src={img3} alt="" />
-        <img src={img4} alt="" />
+          </div>
+        </div>
+
+        <div className="col-lg-6 themed-grid-col ani-right">
+
+          <div className="row">
+            <div className="col-md-6 themed-grid-col"><img src={img1} alt="" /></div>
+            <div className="col-md-6 themed-grid-col"><img src={img2} alt="" /></div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6 themed-grid-col"><img src={img3} alt="" /></div>
+            <div className="col-md-6 themed-grid-col"><img src={img4} alt="" /></div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
 };
 
 export default Idea;
-
-
-
-{/* 
-        
-        
-         */}

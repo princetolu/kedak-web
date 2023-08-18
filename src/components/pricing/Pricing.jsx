@@ -5,7 +5,7 @@ function Pricng() {
   return (
     <div>
           <section>
-              <div class="content">
+              <div class="conten">
 
                   <div class="basic box">
 
