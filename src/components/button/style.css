@@ -1,0 +1,15 @@
+button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #D6DADE;
+    letter-spacing: 2px;
+    margin-right: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 3px #D6DADE;
+}

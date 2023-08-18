@@ -1,0 +1,41 @@
+.idea {
+    display: flex;
+    background-color: #F4F4F4;
+    border-radius: 16px;
+    justify-content: space-evenly ;
+}
+
+.idea .text {
+    padding: 50px 0 50px 84px;
+    
+}
+
+.idea h1 {
+    font-size: 40px;
+    width: 350px;
+}
+
+.idea .note {
+    margin-top: 30px;
+    word-spacing: 10px;
+}
+
+.idea ul {
+    width: 380px;
+}
+
+.idea ul li {
+    padding: 10px 0;
+}
+
+.idea .picture {
+    margin: auto;
+    float: right;
+    align-items: end;
+    text-align: right;
+}
+
+.idea .picture img {
+    width: 300px;
+    margin: 5px;
+}

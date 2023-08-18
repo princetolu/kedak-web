@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.cont {
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+     white-space: nowrap;
+}
+
+@media screen and (max-width: 640px) {
+    .cont {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .cont {
+        width: 25%;
+        white-space: nowrap;
+    }
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-2 {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.content-details {
+    position: absolute;
+    text-align: start;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 85%;
+    left: 50%;
+    padding: 20px 10px 20px 30px;
+    opacity: 1;
+    border-radius: 32px;
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0) 0%, #090A0C 39.07%);
+}
+
+.content-2:hover .content-details {
+    top: 78%;
+    left: 50%;
+    padding: 20px 10px 20px 30px;
+    opacity: 1;
+    border-radius: 45px;
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0) 0%, #090A0C 39.07%);
+}
+
+.content-details h5 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p {
+    font-size: 0.8em;
+    font-weight: 700;
+    background: linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.content-details small {
+    color: rgba(73, 80, 87, 1);
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}

@@ -1,0 +1,159 @@
+:root{
+    --pinkish-red: #C35A74;
+    --medium-blue: #307BAA;
+    --greenish-blue: #53BAB5;
+    --dark-gray: #7D7C7C;
+    --black: #000;
+    --silver: #ADB5BD;
+    --gold: #FFD91A;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--white-smoke);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 100px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 586px;
+    width: 300px;
+    border: 1px solid #D6DADE;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    background: var(--white);
+
+}
+
+.silver-box{
+    display: flex;
+    flex-direction: column;
+    height: 586px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    
+    background: var(--white);
+    background: linear-gradient(white, white) padding-box, linear-gradient(154.55deg, #FC4981 11.28%, #FF5C00 48.34%, #A73DE0 63.65%) border-box;
+}
+
+
+
+
+
+.title{
+    width: 100%;
+    padding-top: 30px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 700;
+
+    color: var(--white-smoke);
+}
+
+.basic .title{
+    color: var(--pinkish-red);
+}
+
+.standard .title{
+    color: var(--silver);
+}
+
+.business .title{
+    color: var(--gold);
+}
+
+.button{
+    margin: 0 auto;
+}
+
+button{
+    height: 50px;
+    font-size: 0.7em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #7D7C7C;
+    border: 1px solid #D6DADE;
+    border-radius: 16px;
+    background: transparent;
+    padding: 16px;
+    margin: auto;
+}
+
+button:hover{
+    box-shadow: 0 3px #D6DADE;
+    transition: 0.5s;
+}
+
+.cost{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.amount{
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+
+.description{
+    margin: 20px 5px;
+    font-size: 0.8em;
+    color: #7D7C7C;
+}
+
+.description ul{
+    list-style: none;
+}
+
+.description li{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.description li::before{
+    content: "";
+    background-image: url("https://i.postimg.cc/ht7g996V/check.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* Responsiveness:Start */
+@media screen and (max-width:970px) {
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .standard, .business{
+        margin-top: 25px;
+    }
+}
+/* Responsiveness:End */

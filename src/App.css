@@ -1,0 +1,141 @@
+body {
+  color: #131313;
+  width: 90%;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #F4F4F4 transparent;
+  padding-top: 50px;
+}
+
+.header .logo {
+  background-color: #D2D2D2;
+  padding: 7px 10px;
+  border-radius: 8px;
+}
+
+.header h2{
+font-size: 64px;
+font-weight: 500;
+line-height: 71px;
+margin-top: 24px;
+}
+
+.header p {
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+color: #ADB5BD;
+padding-top: 0;
+margin-top: 36px;
+}
+
+.header .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header .vector {
+  width: 100%;
+  height: 320px;
+  margin-top: 100px;
+}
+
+.header .phone {
+  margin-top: -400px;
+}
+
+
+/* CEO */
+.ceo {
+  width: 595px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.ceo h2 {
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+word-spacing: 3px;
+}
+
+.ceo-name {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.ceo-name img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.ceo-name h4 {
+  margin-bottom: 0;
+}
+
+.ceo-name h6 {
+  margin-top: 0;
+}
+
+
+
+.walkthrough {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 35px;
+}
+
+.walkthrough p {
+  color: #495057;
+  font-weight: 500;
+}
+
+.walkthrough h2 {
+font-size: 32px;
+font-weight: 500;
+line-height: 36px;
+color: #0d0d0d;
+}
+
+.walkthrough h5 {
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+color: #ADB5BD;
+}
+
+
+.payment {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 35px;
+}
+
+.payment p {
+  color: #495057;
+  font-weight: 500;
+}
+
+.payment h2 {
+font-size: 32px;
+font-weight: 500;
+line-height: 36px;
+color: #0d0d0d;
+}
+
+.payment h5 {
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+color: #ADB5BD;
+}
+
