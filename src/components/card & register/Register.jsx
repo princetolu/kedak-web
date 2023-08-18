@@ -12,7 +12,7 @@ function Register() {
     <div>
       <div className="row mb-3 register g-5">
 
-        <div className="col-md-6 themed-grid-col left">
+        <div className="col-md-4 themed-grid-col left">
           <p><i className="bi bi-lightbulb"></i> 2 / 4</p>
 
           <h3>Download app</h3>
@@ -24,9 +24,9 @@ function Register() {
           <img src={img1} alt="" />
         </div>
 
-        <div className="col-md-6 themed-grid-col right">
+        <div className="col-md-8 themed-grid-col right">
 
-          <div className="top">
+          <div className="top mb-5">
             <div className="row">
               <div className="col-md-6">
                 <p><i className="bi bi-lightbulb"></i> 3 / 4</p>

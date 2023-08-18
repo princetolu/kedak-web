@@ -7,7 +7,7 @@ import img from '../../assets/images/Frame1.png'
 function Card() {
   return (
     <div className="row get">
-      <div className="col-6 text">
+      <div className="col-md-6 text">
         <p><i class="bi bi-lightbulb"></i> 1 / 4</p>
 
         <h1>Get a Card</h1>
@@ -17,7 +17,7 @@ function Card() {
         <Order />
       </div>
 
-      <div className="col-6 picture">
+      <div className="col-md-6 picture">
         <img src={img} alt="" />
       </div>
     </div>

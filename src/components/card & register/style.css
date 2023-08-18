@@ -19,15 +19,15 @@
 
 .get h1 {
     font-size: 40px;
-    width: 350px;
 }
 
 .get .picture img {
-    width: 625px;
+    width: 100%;
+    margin-top: 80px;
 }
 
 .register {
-    margin: 100px 0;
+    margin-top: 10px;
 }
 
 .register .left {
@@ -44,26 +44,24 @@
 .register .left img {
     width: 100%;
     float: right;
-    margin-top: 35px;
 }
 
 
 .register .right .top,
 .register .right .bottom {
-    padding: 20px 0 0 20px;
+    padding: 10px 0 0 20px;
     background-color: #F4F4F4;
     border-radius: 16px;
     display: block;
-    margin-bottom: 50px;
 }
 
 .register .right h3,
 .register .bottom h3 {
-    padding: 20px 0 0 20px;
+    padding: 10px 0 0 20px;
 }
 
 .register .right p{
-    padding: 20px 0 20px 20px;
+    padding: 10px 0 20px 20px;
 }
 
 .register .left:hover {

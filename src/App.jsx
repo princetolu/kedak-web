@@ -7,7 +7,7 @@ import Idea from './components/idea/Idea'
 import Card from './components/card & register/Card'
 import Register from './components/card & register/Register'
 import Pricng from './components/pricing/Pricing'
-import Toggle from './components/toggle/Toggle'
+// import Toggle from './components/toggle/Toggle'
 import Accordion from './components/accordion/Accordion'
 import Footer from './components/footer/Footer'
 
@@ -34,7 +34,7 @@ function App() {
           <Order />
         </div>
 
-        <img src={vector} alt="vector" className='vector' />
+     
 
         <img src={iphone} alt="phone" className='phone' />
       </div>
@@ -46,7 +46,7 @@ function App() {
         <div className='ceo-name'>
           <img src={ceo} alt="" />
 
-          <div>
+          <div className='mt-5'>
             <h4>Vladimir Roshuv</h4>
             <h6>C.E.O</h6>
           </div>
