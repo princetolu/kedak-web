@@ -13,7 +13,7 @@ import Footer from './components/footer/Footer'
 
 import logo from '../src/assets/images/logo.png'
 import iphone from '../src/assets/images/iphone.png'
-import vector from '../src/assets/images/vector.png'
+import vector from '../src/assets/images/Vector.png'
 import ceo from '../src/assets/images/Ellipse1.png'
 
 function App() {
